@@ -1,0 +1,41 @@
+﻿# Secrets & credentials
+.env
+.env.*
+**/.env
+**/kaggle.json
+*kaggle*token*
+*token*
+*.pem
+credentials.json
+secrets.*
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editor / agent
+.cursor/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Large / local-only lab trees (canonical copies live under submissions/, writeup/, decks/)
+data/
+kaggle_scrape/
+outputs/
+tools/
+
+# Weights / native / dumps if they appear elsewhere
+**/model.pt
+**/*.pt
+**/*weights*.zip
+**/episode-*-replay.json
+*.ckpt
+*.safetensors
+**/pokemon-tcg-ai-battle*.zip
+**/notebooks.zip

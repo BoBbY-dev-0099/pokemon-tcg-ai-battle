@@ -1,0 +1,24 @@
+{
+  "slug": "alakazam_v12",
+  "title": "Search-Audited Alakazam v12",
+  "source_notebook": "kaggle_scrape/notebooks/simulation/prvsiyan/ptcg-ai-battle-search-audited-alakazam-v12.ipynb",
+  "profile_id": null,
+  "repairs": [
+    "embedded exact deck",
+    "raw parse-error legal fallback"
+  ],
+  "runtime_source": "data/pokemon-tcg-ai-battle/sample_submission/sample_submission/cg",
+  "files": [
+    "deck.csv",
+    "main.py"
+  ],
+  "sha256": {
+    "deck.csv": "0598646548d081832ec311c15fdc369b32c6f5e63175b0cfd1904d21fd082451",
+    "main.py": "f3a1f84b92d4ae6488085665b17df134ea6fbf1042e6d99030ca9936a17475ef"
+  },
+  "notes": [
+    "Generated locally from already-downloaded public notebook content.",
+    "No Kaggle submission was made by this builder.",
+    "Run current-engine safety/matchup tests before upload."
+  ]
+}
